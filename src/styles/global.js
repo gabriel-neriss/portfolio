@@ -8,10 +8,29 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    font-size: 62.5%;
+  
+  }
+
+  body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    outline: none;
+  }
+
 
   a {
 
-  text-decoration: none;
+    text-decoration: none;
+    color:inherit
+    
+  }
+
+  ul, li {
+    
+    list-style:none;
 
   }
 
