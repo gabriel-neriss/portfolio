@@ -42,7 +42,6 @@
 
 .menu-button:hover {
   border-bottom: 4px solid var(--hover-color);
-  color: var(--secondary-color);
 }
 
 .main {
@@ -67,6 +66,12 @@
 }
 
 .presentation-name {
+  font-size: 1rem;
+  letter-spacing: 8px;
+  line-height: 4rem;
+}
+
+.presentation-profession {
   font-size: 4rem;
 }
 
